@@ -42,3 +42,4 @@ df = df.groupby([df['date'].dt.year,df['financials'],df['ticker']])['value'].sum
 
 export_excel = df.to_excel(r'C:/Users/Jacob Steenhuysen/Downloads/REIT Balance Sheet Histories.xlsx', sheet_name="Sheet1", index= True)
 
+
